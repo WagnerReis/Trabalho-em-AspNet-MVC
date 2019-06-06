@@ -1,0 +1,82 @@
+﻿@model Marcenaria.Models.Funcionario
+@{
+    ViewBag.Title = "Edição de Funcionario";
+}
+
+@Html.ValidationSummary(true)
+<div class="panel panel-warning">
+    <div class="panel-heading">Edição do Funcionario</div>
+    <p></p>
+    @using (Html.BeginForm("Edit", "Funcionario",
+    FormMethod.Post, new { @class = "form-horizontal", @role = "form" }))
+    {
+        <div class="form-group">
+            @Html.Label("Nome", new { @class = "col-sm-2 control-label" })
+            @Html.TextBox("Nome", Model.Nome, new { @class = "form-control", type = "text", required = "true" })
+        </div>
+
+        <div class="form-group">
+            @Html.Label("Telefone", new { @class = "col-sm-2 control-label" })
+            @Html.TextBox("Telefone", Model.Telefone, new { @class = "form-control", type = "text", required = "true" })
+        </div>
+
+        <div class="form-group">
+            @Html.Label("Celular", new { @class = "col-sm-2 control-label" })
+            @Html.TextBox("Celular", Model.Celular, new { @class = "form-control", type = "text", required = "true" })
+        </div>
+        <div class="form-group">
+            @Html.Label("Tipo", new { @class = "col-sm-2 control-label" })
+            @Html.TextBox("Tipo", Model.Tipo, new { @class = "form-control", type = "checkbox", required = "true" })
+        </div>
+        <div class="form-group">
+            @Html.Label("CNPJ", new { @class = "col-sm-2 control-label" })
+            @Html.TextBox("Cnpj", Model.Cnpj, new { @class = "form-control", type = "text", required = "true" })
+        </div>
+        <div class="form-group">
+            @Html.Label("CPF", new { @class = "col-sm-2 control-label" })
+            @Html.TextBox("Cpf", Model.Cpf, new { @class = "form-control", type = "text", required = "true" })
+        </div>
+
+        <div class="form-group">
+            @Html.Label("Estado", new { @class = "col-sm-2 control-label" })
+            @Html.TextBox("Estado", Model.Estado, new { @class = "form-control", type = "text", required = "true" })
+        </div>
+
+        <div class="form-group">
+            @Html.Label("Cidade", new { @class = "col-sm-2 control-label" })
+            @Html.TextBox("Cidade", Model.Cidade, new { @class = "form-control", type = "text", required = "true" })
+        </div>
+
+        <div class="form-group">
+            @Html.Label("Bairro", new { @class = "col-sm-2 control-label" })
+            @Html.TextBox("Bairro", Model.Bairro, new { @class = "form-control", type = "text", required = "true" })
+        </div>
+
+        <div class="form-group">
+            @Html.Label("Rua", new { @class = "col-sm-2 control-label" })
+            @Html.TextBox("Rua", Model.Rua, new { @class = "form-control", type = "text", required = "true" })
+        </div>
+
+        <div class="form-group">
+            @Html.Label("Numero", new { @class = "col-sm-2 control-label" })
+            @Html.TextBox("Numero", Model.Numero, new { @class = "form-control", type = "text", required = "true" })
+        </div>
+
+        <div class="row">
+            <div class="col-md-4 col-md-offset-5">
+                <div class="btn-group btn-group-sm">
+                    <button type="submit" class="btn btn-default">Salvar</button>
+                    <a href="@Url.Action("Index", "Funcionario")" class="btn btn-default btn-sm">Voltar</a>
+                </div>
+            </div>
+        </div>
+
+
+    }
+</div>
+@{
+    ViewBag.Title = "Edit";
+}
+
+<h2>Edit</h2>
+

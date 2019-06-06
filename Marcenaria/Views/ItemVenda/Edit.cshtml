@@ -1,0 +1,35 @@
+﻿@model Marcenaria.Models.ItemVenda
+@{
+    ViewBag.Title = "Edição de Item da Venda";
+}
+
+@Html.ValidationSummary(true)
+<div class="panel panel-warning">
+    <div class="panel-heading">Edição de Item da Venda</div>
+    <p></p>
+    @using (Html.BeginForm("Edit", "ItemVenda",
+    FormMethod.Post, new { @class = "form-horizontal", @role = "form" }))
+    {
+        <div class="form-group">
+            @Html.Label("Quantidade", new { @class = "col-sm-2 control-label" })
+            @Html.TextBox("nQuantidade", Model.Quantidade, new { @class = "form-control", type = "text", required = "true" })
+        </div>
+
+        <div class="form-group">
+            @Html.Label("Valor", new { @class = "col-sm-2 control-label" })
+            @Html.TextBox("nValor", Model.Valor, new { @class = "form-control", type = "text", required = "true" })
+        </div>
+
+        <div class="row">
+            <div class="col-md-4 col-md-offset-5">
+                <div class="btn-group btn-group-sm">
+                    <button type="submit" class="btn btn-default">Salvar</button>
+                    <a href="@Url.Action("Index", "ItemVenda")" class="btn btn-default btn-sm">Voltar</a>
+                </div>
+            </div>
+        </div>
+
+
+    }
+</div>
+

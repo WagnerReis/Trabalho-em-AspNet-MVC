@@ -1,0 +1,100 @@
+﻿@model List<Marcenaria.Models.Entrega>
+
+@{
+    ViewBag.Title = "Cadastro de Entregas";
+}
+
+<div class="panel panel-primary">
+    <div class="panel-heading">Entregas</div>
+    <div class="panel-body">
+        <a href="@Url.Action("Create", "Entrega")"
+           class="btn btn-default btn-sm">
+            <span class="glyphicon glyphicon-plus"></span> Novo
+        </a>
+    </div>
+    <table class="table">
+        <tr>
+            <th>
+                Código
+            </th>
+            <th>
+                Data
+            </th>
+            <th>
+                Estado
+            </th>
+            <th>
+                Cidade
+            </th>
+            <th>
+                Rua
+            </th>
+            <th>
+                Número
+            </th>
+            <th>
+                Bairro
+            </th>
+            <th>
+                Referência
+            </th>
+            <th>
+                Venda
+            </th>
+            <th></th>
+        </tr>
+        @if (Model != null)
+        {
+            foreach (var item in Model)
+            {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Id)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Data)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Estado)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Cidade)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Rua)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Numero)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Bairro)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Referencia)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Venda.Id)
+            </td>
+
+
+            <td>
+                <div class="btn-group btn-group-sm">
+                    @Html.ActionLink("Editar", "Edit",
+                    new { id = item.Id },
+                    new { @class = "btn btn-default btn-sm" })
+
+                    @Html.ActionLink("Visualizar", "Details",
+                   new { id = item.Id },
+                   new { @class = "btn btn-default btn-sm" })
+
+                    @Html.ActionLink("Excluir", "Delete",
+                  new { id = item.Id },
+                   new { @class = "btn btn-default btn-sm" })
+                </div>
+            </td>
+        </tr>
+            }
+        }
+    </table>
+</div>
+

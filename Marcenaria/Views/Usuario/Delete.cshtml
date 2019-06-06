@@ -1,0 +1,39 @@
+﻿@model Marcenaria.Models.Usuario
+@{
+    ViewBag.Title = " Deleção de Usuario";
+}
+
+
+<div class="panel panel-danger">
+    <div class="panel-heading">Exclusão da Usuario</div>
+    <p></p>
+    @using (Html.BeginForm("Delete", "Usuario", FormMethod.Post, new { @class = "form-horizontal", @role = "form" }))
+    {
+        <div class="form-group">
+            <label for="ILogin" class="col-sm-2 control-label">Login</label>
+            <div class="col-sm-3">
+                <input type="text" class="form-control" name="Login" id="ILogin" value="@Model.Login" disabled>
+            </div>
+        </div>
+        <p></p>
+
+        <div class="form-group">
+            <label for="ISenha" class="col-sm-2 control-label">Senha</label>
+            <div class="col-sm-9">
+                <input type="password" class="form-control" name="Senha" id="ISenha" value="@Model.Senha" disabled>
+            </div>
+        </div>
+        
+        <p></p>
+        <div class="row">
+            <div class="col-md-4 col-md-offset-5">
+                <div class="btn-group btn-group-sm">
+                    <input type="submit" value="Excluir" class="btn btn-default btn-sm" />
+                    <a href="@Url.Action("Index", "Usuario")" class="btn btn-default btn-sm">Voltar</a>
+                </div>
+            </div>
+        </div>
+        <p></p>
+    }
+</div>
+

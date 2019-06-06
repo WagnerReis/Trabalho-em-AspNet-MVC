@@ -1,0 +1,38 @@
+﻿@model Marcenaria.Models.Venda
+@{
+    ViewBag.Title = "Deleção de Venda";
+}
+
+
+<div class="panel panel-danger">
+    <div class="panel-heading">Exclusão de Venda</div>
+    <p></p>
+    <div class="form-group">
+        <label for="ICodigo" class="col-sm-2 control-label">Código</label>
+        <div class="col-sm-3">
+            <input type="text" class="form-control" name="Codigo" id="ICodigo" value="@Model.Id" disabled>
+        </div>
+    </div>
+    <p></p>
+
+    @using (Html.BeginForm("Delete", "Venda", FormMethod.Post, new { @class = "form-horizontal", @role = "form" }))
+    {
+        <div class="form-group">
+            <label for="IData" class="col-sm-2 control-label">Data</label>
+            <div class="col-sm-3">
+                <input type="text" class="form-control" name="Data" id="IData" value="@Model.Data" disabled>
+            </div>
+        </div>
+        <p></p>
+
+        <div class="row">
+            <div class="col-md-4 col-md-offset-5">
+                <div class="btn-group btn-group-sm">
+                    <input type="submit" value="Excluir" class="btn btn-default btn-sm" />
+                    <a href="@Url.Action("Index", "Venda")" class="btn btn-default btn-sm">Voltar</a>
+                </div>
+            </div>
+        </div>
+        <p></p>
+    }
+</div>

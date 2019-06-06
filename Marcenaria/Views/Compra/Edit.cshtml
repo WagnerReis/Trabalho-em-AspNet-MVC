@@ -1,0 +1,32 @@
+﻿@model Marcenaria.Models.Compra
+@{
+    ViewBag.Title = "SCAWEB - Edição de Compra";
+}
+
+@Html.ValidationSummary(true)
+<div class="panel panel-warning">
+    <div class="panel-heading">Edição da Compra</div>
+    <p></p>
+    @using (Html.BeginForm("Edit", "Compra",
+    FormMethod.Post, new { @class = "form-horizontal", @role = "form" }))
+    {
+        <div class="form-group">
+            @Html.Label("Data", new { @class = "col-sm-2 control-label" })
+            @Html.TextBox("Data", Model.Data, new { @class = "form-control", type = "data", required = "true" })
+        </div>
+
+        
+        <p></p>
+       
+        <div class="row">
+            <div class="col-md-4 col-md-offset-5">
+                <div class="btn-group btn-group-sm">
+                    <button type="submit" class="btn btn-default">Salvar</button>
+                    <a href="@Url.Action("Index", "Compra")" class="btn btn-default btn-sm">Voltar</a>
+                </div>
+            </div>
+        </div>
+
+
+    }
+</div>

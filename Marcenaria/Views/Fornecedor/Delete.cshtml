@@ -1,0 +1,80 @@
+﻿@model Marcenaria.Models.Fornecedor
+@{
+    ViewBag.Title = " Deleção de Fornecedor";
+}
+
+
+<div class="panel panel-danger">
+    <div class="panel-heading">Exclusão da Fornecedor</div>
+    <p></p>
+    @using (Html.BeginForm("Delete", "Fornecedor", FormMethod.Post, new { @class = "form-horizontal", @role = "form" }))
+    {
+        <div class="form-group">
+            <label for="ITelefone" class="col-sm-2 control-label">Telefone</label>
+            <div class="col-sm-3">
+                <input type="text" class="form-control" name="Telefone" id="ITelefone" value="@Model.Telefone" disabled>
+            </div>
+        </div>
+        <p></p>
+
+        <div class="form-group">
+            <label for="ICelular" class="col-sm-2 control-label">Celular</label>
+            <div class="col-sm-9">
+                <input type="text" class="form-control" name="Celular" id="ICelular" value="@Model.Celular" disabled>
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="IRazaoSocial" class="col-sm-2 control-label">RazaoSocial</label>
+            <div class="col-sm-9">
+                <input type="text" class="form-control" name="RazaoSocial" id="IRazaoSocial" value="@Model.RazaoSocial" disabled>
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="ICnpj" class="col-sm-2 control-label">Cnpj</label>
+            <div class="col-sm-9">
+                <input type="text" class="form-control" name="Cnpj" id="ICnpj" value="@Model.Cnpj" disabled>
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="IEstado" class="col-sm-2 control-label">Estado</label>
+            <div class="col-sm-9">
+                <input type="text" class="form-control" name="Estado" id="IEstado" value="@Model.Estado" disabled>
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="ICidade" class="col-sm-2 control-label">Cidade</label>
+            <div class="col-sm-9">
+                <input type="text" class="form-control" name="Cidade" id="ICidade" value="@Model.Cidade" disabled>
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="IBairro" class="col-sm-2 control-label">Bairro</label>
+            <div class="col-sm-9">
+                <input type="text" class="form-control" name="Bairro" id="IBairro" value="@Model.Bairro" disabled>
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="IRua" class="col-sm-2 control-label">Rua</label>
+            <div class="col-sm-9">
+                <input type="text" class="form-control" name="Rua" id="IRua" value="@Model.Rua" disabled>
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="INumero" class="col-sm-2 control-label">Numero</label>
+            <div class="col-sm-9">
+                <input type="text" class="form-control" name="Numero" id="INumero" value="@Model.Numero" disabled>
+            </div>
+        </div>
+        <p></p>
+        <div class="row">
+            <div class="col-md-4 col-md-offset-5">
+                <div class="btn-group btn-group-sm">
+                    <input type="submit" value="Excluir" class="btn btn-default btn-sm" />
+                    <a href="@Url.Action("Index", "Fornecedor")" class="btn btn-default btn-sm">Voltar</a>
+                </div>
+            </div>
+        </div>
+        <p></p>
+    }
+</div>
+

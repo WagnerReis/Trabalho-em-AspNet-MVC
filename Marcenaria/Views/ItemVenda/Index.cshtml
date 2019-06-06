@@ -1,0 +1,79 @@
+﻿@model List<Marcenaria.Models.ItemVenda>
+
+@{
+    ViewBag.Title = "Cadastro de Item da Venda";
+}
+
+<div class="panel panel-primary">
+    <div class="panel-heading">Itens Vendas</div>
+    <div class="panel-body">
+        <a href="@Url.Action("Create", "ItemVenda")"
+           class="btn btn-default btn-sm">
+            <span class="glyphicon glyphicon-plus"></span> Novo
+        </a>
+    </div>
+    <table class="table">
+        <tr>
+            <th>
+                Código
+            </th>
+            <th>
+                Quantidade
+            </th>
+            <th>
+                Valor
+            </th>
+            <th>
+                Produto
+            </th>
+            <th>
+                Venda
+            </th>
+            <th></th>
+        </tr>
+        @if (Model != null)
+        {
+            foreach (var item in Model)
+            {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Id)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Quantidade)
+            </td>
+
+            <td>
+                @Html.DisplayFor(modelItem => item.Valor)
+            </td>
+
+            <td>
+                @Html.DisplayFor(modelItem => item.Produto.Id)
+            </td>
+
+            <td>
+                @Html.DisplayFor(modelItem => item.Venda.Id)
+            </td>
+
+            <td>
+                <div class="btn-group btn-group-sm">
+                    @Html.ActionLink("Editar", "Edit",
+                    new { id = item.Id },
+                    new { @class = "btn btn-default btn-sm" })
+
+                    @Html.ActionLink("Visualizar", "Details",
+                   new { id = item.Id },
+                   new { @class = "btn btn-default btn-sm" })
+
+                    @Html.ActionLink("Excluir", "Delete",
+                  new { id = item.Id },
+                   new { @class = "btn btn-default btn-sm" })
+                </div>
+            </td>
+        </tr>
+            }
+        }
+    </table>
+</div>
+
+

@@ -1,0 +1,80 @@
+﻿@model Marcenaria.Models.Cliente
+@{
+    ViewBag.Title = "Edição de Cliente";
+}
+
+@Html.ValidationSummary(true)
+<div class="panel panel-warning">
+    <div class="panel-heading">Edição de Cliente</div>
+    <p></p>
+    @using (Html.BeginForm("Edit", "Cliente",
+    FormMethod.Post, new { @class = "form-horizontal", @role = "form" }))
+    {
+        <div class="form-group">
+            @Html.Label("Nome", new { @class = "col-sm-2 control-label" })
+            @Html.TextBox("nNome", Model.Nome, new { @class = "form-control", type = "text", required = "true" })
+        </div>
+
+        <div class="form-group">
+            @Html.Label("Telefone", new { @class = "col-sm-2 control-label" })
+            @Html.TextBox("nTelefone", Model.Telefone, new { @class = "form-control", type = "text", required = "true" })
+        </div>
+
+        <div class="form-group">
+            @Html.Label("Celular", new { @class = "col-sm-2 control-label" })
+            @Html.TextBox("nCelular", Model.Celular, new { @class = "form-control", type = "text", required = "true" })
+        </div>
+
+        <div class="form-group">
+            @Html.Label("Tipo", new { @class = "col-sm-2 control-label" })
+            @Html.CheckBox("nTipo", Model.Tipo, new { @class = "checkbox" })
+        </div>
+
+        <div class="form-group">
+            @Html.Label("Cpf", new { @class = "col-sm-2 control-label" })
+            @Html.TextBox("nCpf", Model.Cpf, new { @class = "form-control", type = "text", required = "true" })
+        </div>
+
+        <div class="form-group">
+            @Html.Label("Cnpj", new { @class = "col-sm-2 control-label" })
+            @Html.TextBox("nCnpj", Model.Cnpj, new { @class = "form-control", type = "text", required = "true" })
+        </div>
+
+        <div class="form-group">
+            @Html.Label("Estado", new { @class = "col-sm-2 control-label" })
+            @Html.TextBox("nEstado", Model.Estado, new { @class = "form-control", type = "text", required = "true" })
+        </div>
+
+        <div class="form-group">
+            @Html.Label("Cidade", new { @class = "col-sm-2 control-label" })
+            @Html.TextBox("nCidade", Model.Cidade, new { @class = "form-control", type = "text", required = "true" })
+        </div>
+
+        <div class="form-group">
+            @Html.Label("Bairro", new { @class = "col-sm-2 control-label" })
+            @Html.TextBox("nBairro", Model.Bairro, new { @class = "form-control", type = "text", required = "true" })
+        </div>
+
+        <div class="form-group">
+            @Html.Label("Rua", new { @class = "col-sm-2 control-label" })
+            @Html.TextBox("nRua", Model.Rua, new { @class = "form-control", type = "text", required = "true" })
+        </div>
+
+        <div class="form-group">
+            @Html.Label("Numero", new { @class = "col-sm-2 control-label" })
+            @Html.TextBox("nNumero", Model.Numero, new { @class = "form-control", type = "number", required = "true" })
+        </div>
+
+        <div class="row">
+            <div class="col-md-4 col-md-offset-5">
+                <div class="btn-group btn-group-sm">
+                    <button type="submit" class="btn btn-default">Salvar</button>
+                    <a href="@Url.Action("Index", "Cliente")" class="btn btn-default btn-sm">Voltar</a>
+                </div>
+            </div>
+        </div>
+
+
+    }
+</div>
+

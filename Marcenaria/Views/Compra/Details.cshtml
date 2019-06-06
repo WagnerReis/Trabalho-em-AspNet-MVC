@@ -1,0 +1,63 @@
+﻿@model Marcenaria.Models.Compra
+
+@{
+    ViewBag.Title = " Visualização de Compra";
+}
+
+
+<div class="panel panel-success">
+    <div class="panel-heading">Visualização do Compra</div>
+    <div class="panel-body">
+        <p>Nessa tela você poderará visualizar os dados do Compra.</p>
+        <p></p>
+    </div>
+    <div class="panel panel-success">
+        <div class="panel-body">
+
+            <p></p>
+
+
+            <div class="input-group">
+                <span class="input-group-addon">Código</span>
+                <input type="text"
+                       class="form-control" placeholder="Código" name="Codigo"
+                       id="ICodigo" value="@Model.Id" readonly>
+            </div>
+            <p></p>
+            <div class="input-group">
+                <span class="input-group-addon">Data</span>
+                <input type="text" class="form-control"
+                       placeholder="Data" name="Data" id="IData"
+                       value="@Model.Data" readonly>
+            </div>
+
+            <p></p>
+            <div class="input-group">
+                <span class="input-group-addon">Fornecedor</span>
+                <input type="text" class="form-control"
+                       placeholder="Fornecedor" name="Fornecedor" id="IFornecedor"
+                       value="@Model.Fornecedor" readonly>
+            </div>
+            <p></p>
+            <div class="input-group">
+                <span class="input-group-addon">Funcionario</span>
+                <input type="text" class="form-control"
+                       placeholder="Funcionario" name="Funcionario" id="IFuncionarior"
+                       value="@Model.Funcionario" readonly>
+            </div>
+            <p></p>
+                      
+            <p></p>
+            <div class="row">
+                <div class="col-md-4 col-md-offset-5">
+                    <div class="btn-group btn-group-sm">
+                        @Html.ActionLink("Editar", "Edit", new { id =
+                        Model.Id }, new { @class = "btn btn-default btn-sm" })
+                        <a href="@Url.Action("Index", "Compra")"
+                           class="btn btn-default btn-sm">Voltar</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

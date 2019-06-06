@@ -1,0 +1,56 @@
+﻿@model Marcenaria.Models.Usuario
+
+
+@{
+    ViewBag.Title = " Visualização de Usuario";
+}
+
+
+<div class="panel panel-success">
+    <div class="panel-heading">Visualização do Usuario</div>
+    <div class="panel-body">
+        <p>Nessa tela você poderará visualizar os dados do Usuario.</p>
+        <p></p>
+    </div>
+    <div class="panel panel-success">
+        <div class="panel-body">
+
+            <p></p>
+
+
+            <div class="input-group">
+                <span class="input-group-addon">Código</span>
+                <input type="text"
+                       class="form-control" placeholder="Código" name="Codigo"
+                       id="ICodigo" value="@Model.Id" readonly>
+            </div>
+            <p></p>
+            <div class="input-group">
+                <span class="input-group-addon">Login</span>
+                <input type="text" class="form-control"
+                       placeholder="Login" name="Login" id="ILogin"
+                       value="@Model.Login" readonly>
+            </div>
+
+            <p></p>
+            <div class="input-group">
+                <span class="input-group-addon">Senha</span>
+                <input type="password" class="form-control"
+                       placeholder="Senha" name="Senha" id="ISenha"
+                       value="@Model.Senha" readonly>
+            </div>
+            <p></p>
+            
+            <div class="row">
+                <div class="col-md-4 col-md-offset-5">
+                    <div class="btn-group btn-group-sm">
+                        @Html.ActionLink("Editar", "Edit", new { id =
+                        Model.Id }, new { @class = "btn btn-default btn-sm" })
+                        <a href="@Url.Action("Index", "Usuario")"
+                           class="btn btn-default btn-sm">Voltar</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

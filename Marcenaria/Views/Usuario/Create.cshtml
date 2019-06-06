@@ -1,0 +1,42 @@
+﻿
+@{
+    ViewBag.Title = "Cadastrar Usuario";
+}
+@Html.ValidationSummary(true)
+<div class="panel panel-info">
+    <div class="panel-heading">Cadastro do Usuario</div>
+    <p></p>
+    @using (Html.BeginForm("Create", "Usuario", FormMethod.Post,
+        new { @class = "form-horizontal", @role = "form" }))
+    {
+        <p></p>
+        <div class="form-group">
+            <label for="ILogin" class="col-sm-2 control-label">Login</label>
+            <div class="col-sm-3">
+                <input type="text" class="form-control" placeholder="Login"
+                       name="Login" id="iLogin">
+            </div>
+        </div>
+        <p></p>
+        <div class="form-group">
+            <label for="ISenha" class="col-sm-2 control-label">Senha</label>
+            <div class="col-sm-3">
+                <input type="password" class="form-control" placeholder="Senha"
+                       name="Senha" id="iSenha">
+            </div>
+        </div>
+        <p></p>
+        <div class="row">
+            <div class="col-md-4 col-md-offset-5">
+                <div class="btn-group btn-group-sm">
+                    <button type="submit" class="btn btn-default">Salvar</button>
+                    <a href="@Url.Action("Index", "Usuario")" class="btn btn-default btn-sm">Voltar</a>
+                </div>
+            </div>
+        </div>
+        <p></p>
+    }
+</div>
+
+
+

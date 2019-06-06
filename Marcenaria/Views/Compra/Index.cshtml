@@ -1,0 +1,62 @@
+﻿@model List<Marcenaria.Models.Compra>
+
+@{
+    ViewBag.Title = "Compra";
+}
+
+<div class="panel panel-primary">
+    <div class="panel-heading">Compra</div>
+    <div class="panel-body">
+        <a href="@Url.Action("Create", "Compra")" class="btn
+btn-default btn-sm">
+            <span class="glyphicon glyphicon-plus"></span> Novo
+        </a>
+    </div>
+
+    <table class="table">
+        <tr>
+            <th>
+                Id
+            </th>
+            <th>
+                Data
+            </th>
+            <th>
+                Fornecedor
+            </th>
+            <th></th>
+        </tr>
+        @if (Model != null)
+        {
+            foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Id)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Data)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Fornecedor.RazaoSocial)
+                    </td>
+                    <td>
+                        <div class="btn-group btn-group-sm">
+                            @Html.ActionLink("Editar", "Edit",
+                            new { id = item.Id },
+                            new { @class = "btn btn-default btn-sm" })
+
+                            @Html.ActionLink("Visualizar", "Details",
+                           new { id = item.Id },
+                           new { @class = "btn btn-default btn-sm" })
+
+                            @Html.ActionLink("Excluir", "Delete",
+                          new { id = item.Id },
+                           new { @class = "btn btn-default btn-sm" })
+                        </div>
+                    </td>
+                </tr>
+            }
+        }
+    </table>
+</div>

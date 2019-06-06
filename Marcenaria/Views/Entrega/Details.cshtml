@@ -1,0 +1,81 @@
+﻿@model Marcenaria.Models.Entrega
+
+@{
+    ViewBag.Title = "Visualização de Entrega";
+}
+
+
+<div class="panel panel-success">
+    <div class="panel-heading">Visualização das Entregas</div>
+    <div class="panel panel-success">
+        <div class="panel-body">
+            <div class="row">
+                <p></p>
+                <div class="col-md-4">
+                    <div class="input-group">
+                        <span class="input-group-addon">Código</span>
+                        <input type="text" class="form-control" name="Codigo" id="ICodigo"
+                               value="@Model.Id" readonly>
+                    </div>
+                </div>
+            </div>
+            <p></p>
+            <div class="input-group">
+                <span class="input-group-addon">Data</span>
+                <input type="datetime" class="form-control"
+                       name="Data" id="IData" value="@Model.Data" readonly>
+            </div>
+            <p></p>
+            <div class="input-group">
+                <span class="input-group-addon">Estado</span>
+                <input type="text" class="form-control" name="Estado" id="IEstado"
+                       value="@Model.Estado" readonly>
+            </div>
+            <p></p>
+            <div class="input-group">
+                <span class="input-group-addon">Cidade</span>
+                <input type="text" class="form-control" name="Cidade" id="ICidade"
+                       value="@Model.Cidade" readonly>
+            </div>
+            <p></p>
+            <div class="input-group">
+                <span class="input-group-addon">Rua</span>
+                <input type="text" class="form-control" name="Rua" id="IRua"
+                       value="@Model.Rua" readonly>
+            </div>
+            <p></p>
+            <div class="input-group">
+                <span class="input-group-addon">Número</span>
+                <input type="text" class="form-control" name="Numero" id="INumero"
+                       value="@Model.Numero" readonly>
+            </div>
+            <p></p>
+            <div class="input-group">
+                <span class="input-group-addon">Bairro</span>
+                <input type="text" class="form-control" name="Bairro" id="IBairro"
+                       value="@Model.Bairro" readonly>
+            </div>
+            <p></p>
+            <div class="input-group">
+                <span class="input-group-addon">Referência</span>
+                <input type="text" class="form-control" name="Referencia" id="IReferencia"
+                       value="@Model.Referencia" readonly>
+            </div>
+            <p></p>
+            <div class="input-group">
+                <span class="input-group-addon">Venda</span>
+                    <input type="text" class="form-control" name="Venda" id="IVenda"
+                           value="@Model.Venda" readonly>
+            </div>
+            <p></p>
+            <div class="row">
+                <div class="col-md-4 col-md-offset-5">
+                    <div class="btn-group btn-group-sm">
+                        @Html.ActionLink("Editar", "Edit", new { id = Model.Id }, new { @class = "btn btn-default btn-sm" })
+                        <a href="@Url.Action("Index", "Entrega")" class="btn btn-default btn-sm">Voltar</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

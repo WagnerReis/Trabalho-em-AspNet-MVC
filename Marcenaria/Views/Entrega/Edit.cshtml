@@ -1,0 +1,60 @@
+﻿@model Marcenaria.Models.Entrega
+@{
+    ViewBag.Title = "Edição de Entrega";
+}
+
+@Html.ValidationSummary(true)
+<div class="panel panel-warning">
+    <div class="panel-heading">Edição de Entrega</div>
+    <p></p>
+    @using (Html.BeginForm("Edit", "Entrega",
+    FormMethod.Post, new { @class = "form-horizontal", @role = "form" }))
+    {
+        <div class="form-group">
+            @Html.Label("Data", new { @class = "col-sm-2 control-label" })
+            @Html.TextBox("nData", Model.Data.ToString("dd/MM/yyyy"), new {@class = "form-control jqueryui-marker-datepicker", required = "true" })
+        </div>
+
+        <div class="form-group">
+            @Html.Label("Estado", new { @class = "col-sm-2 control-label" })
+            @Html.TextBox("nEstado", Model.Estado, new { @class = "form-control", type = "text", required = "true" })
+        </div>
+
+        <div class="form-group">
+            @Html.Label("Cidade", new { @class = "col-sm-2 control-label" })
+            @Html.TextBox("nCidade", Model.Cidade, new { @class = "form-control", type = "text", required = "true" })
+        </div>
+
+        <div class="form-group">
+            @Html.Label("Rua", new { @class = "col-sm-2 control-label" })
+            @Html.TextBox("nRua", Model.Rua, new { @class = "form-control", type = "text", required = "true" })
+        </div>
+
+        <div class="form-group">
+            @Html.Label("Numero", new { @class = "col-sm-2 control-label" })
+            @Html.TextBox("nNumero", Model.Numero, new { @class = "form-control", type = "number", required = "true" })
+        </div>
+
+        <div class="form-group">
+            @Html.Label("Bairro", new { @class = "col-sm-2 control-label" })
+            @Html.TextBox("nBairro", Model.Bairro, new { @class = "form-control", type = "text", required = "true" })
+        </div>
+
+        <div class="form-group">
+            @Html.Label("Referencia", new { @class = "col-sm-2 control-label" })
+            @Html.TextBox("nReferencia", Model.Referencia, new { @class = "form-control", type = "text", required = "true" })
+        </div>
+
+        <div class="row">
+            <div class="col-md-4 col-md-offset-5">
+                <div class="btn-group btn-group-sm">
+                    <button type="submit" class="btn btn-default">Salvar</button>
+                    <a href="@Url.Action("Index", "Entrega")" class="btn btn-default btn-sm">Voltar</a>
+                </div>
+            </div>
+        </div>
+
+
+    }
+</div>
+

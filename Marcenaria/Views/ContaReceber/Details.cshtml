@@ -1,0 +1,44 @@
+﻿@model Marcenaria.Models.ContaReceber
+@{
+    ViewBag.Title = "Visualização de Contas a Receber";
+}
+
+
+<div class="panel panel-success">
+    <div class="panel-heading">Visualização da Conta a receber</div>
+    <div class="panel panel-success">
+        <div class="panel-body">
+            <div class="row">
+                <p></p>
+                <div class="col-md-4">
+                    <div class="input-group">
+                        <span class="input-group-addon">Código</span>
+                        <input type="text" class="form-control" name="Codigo" id="ICodigo"
+                               value="@Model.Id" readonly>
+                    </div>
+                </div>
+            </div>
+            <p></p>
+            <div class="input-group">
+                <span class="input-group-addon">Valor</span>
+                <input type="text" class="form-control"
+                       name="Valor" id="IValor" value="@Model.Valor" readonly>
+            </div>
+            <p></p>
+            <div class="input-group">
+                <span class="input-group-addon">Data</span>
+                <input type="text" class="form-control" name="Data" id="IData"
+                       value="@Model.Data" readonly>
+            </div>
+            <p></p>
+            <div class="row">
+                <div class="col-md-4 col-md-offset-5">
+                    <div class="btn-group btn-group-sm">
+                        @Html.ActionLink("Editar", "Edit", new { id = Model.Id }, new { @class = "btn btn-default btn-sm" })
+                        <a href="@Url.Action("Index", "ContaReceber")" class="btn btn-default btn-sm">Voltar</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

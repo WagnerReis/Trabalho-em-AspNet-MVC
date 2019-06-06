@@ -1,0 +1,45 @@
+﻿@model Marcenaria.Models.Compra
+@{
+    ViewBag.Title = " Deleção de Compra";
+}
+
+
+<div class="panel panel-danger">
+    <div class="panel-heading">Exclusão da Compra</div>
+    <p></p>
+    @using (Html.BeginForm("Delete", "Compra", FormMethod.Post, new { @class = "form-horizontal", @role = "form" }))
+    {
+        <div class="form-group">
+            <label for="IData" class="col-sm-2 control-label">Data</label>
+            <div class="col-sm-3">
+                <input type="date" class="form-control" name="Data" id="IData" value="@Model.Data" disabled>
+            </div>
+        </div>
+        <p></p>
+
+        <div class="form-group">
+            <label for="IFornecedor" class="col-sm-2 control-label">Fornecedor</label>
+            <div class="col-sm-9">
+                <input type="text" class="form-control" name="Fornecedor" id="IFornecedor" value="@Model.Fornecedor" disabled>
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="IFuncionario" class="col-sm-2 control-label">Funcionario</label>
+            <div class="col-sm-9">
+                <input type="text" class="form-control" name="Funcionario" id="IFuncionario" value="@Model.Funcionario" disabled>
+            </div>
+        </div>
+        
+        <p></p>
+        <div class="row">
+            <div class="col-md-4 col-md-offset-5">
+                <div class="btn-group btn-group-sm">
+                    <input type="submit" value="Excluir" class="btn btn-default btn-sm" />
+                    <a href="@Url.Action("Index", "Compra")" class="btn btn-default btn-sm">Voltar</a>
+                </div>
+            </div>
+        </div>
+        <p></p>
+    }
+</div>
+

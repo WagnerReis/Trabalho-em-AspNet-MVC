@@ -1,0 +1,49 @@
+﻿@model Marcenaria.Models.Produto
+@{
+    ViewBag.Title = "Visualização dos Produtos";
+}
+
+<div class="panel panel-success">
+    <div class="panel-heading">Visualização dos Produtos</div>
+    <div class="panel panel-success">
+        <div class="row">
+            <p></p>
+            <div class="col-md-4">
+                <div class="input-group">
+                    <span class="input-group-addon">Código</span>
+                    <input type="text" class="form-control" name="Codigo" id="ICodigo"
+                           value="@Model.Id" readonly />
+                </div>
+            </div>
+        </div>
+        <p></p>
+        <div class="input-group">
+            <span class="input-group-addon">Valor</span>
+            <input type="text" class="form-control" name="Valor" id="IValor"
+                   value="@Model.Valor" readonly />
+        </div>
+        
+        <p></p>
+        <div class="input-group">
+            <span class="input-group-addon">Nome</span>
+            <input type="text" class="form-control" name="Nome" id="INome"
+                   value="@Model.Nome" readonly />
+        </div>
+        <p></p>
+        <div class="input-group">
+            <span class="input-group-addon">Descrição</span>
+            <input type="text" class="form-control" name="Descrição" id="IDescrição"
+                   value="@Model.Descricao" readonly />
+        </div>
+        <p></p>
+        <div class="row">
+            <div class="col-md-4 col-md-offset-5">
+                <div class="btn-group btn-group-sm">
+                    @Html.ActionLink("Editar", "Edit", new { id = Model.Id }, new { @class = "btn btn-default btn-sm" })
+                    <a href="@Url.Action("Index", "Produto")" class="btn btn-default btn-sm">Voltar</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+

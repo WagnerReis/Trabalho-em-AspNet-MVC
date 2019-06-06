@@ -1,0 +1,104 @@
+﻿@model Marcenaria.Models.Fornecedor
+
+@{
+    ViewBag.Title = " Visualização de Fornecedor";
+}
+
+
+<div class="panel panel-success">
+    <div class="panel-heading">Visualização do Fornecedor</div>
+    <div class="panel-body">
+        <p>Nessa tela você poderará visualizar os dados do Fornecedor.</p>
+        <p></p>
+    </div>
+    <div class="panel panel-success">
+        <div class="panel-body">
+
+            <p></p>
+
+
+            <div class="input-group">
+                <span class="input-group-addon">Código</span>
+                <input type="text"
+                       class="form-control" placeholder="Código" name="Codigo"
+                       id="ICodigo" value="@Model.Id" readonly>
+            </div>
+            <p></p>
+            <div class="input-group">
+                <span class="input-group-addon">Razao Social</span>
+                <input type="text" class="form-control"
+                       placeholder="Razao Social" name="RazaoSocial" id="IRazaoSocial"
+                       value="@Model.RazaoSocial" readonly>
+            </div>
+            
+            <p></p>
+            <div class="input-group">
+                <span class="input-group-addon">Telefone</span>
+                <input type="text" class="form-control"
+                       placeholder="Telefone" name="Telefone" id="ITelefone"
+                       value="@Model.Telefone" readonly>
+            </div>
+            <p></p>
+            <div class="input-group">
+                <span class="input-group-addon">Celular</span>
+                <input type="text" class="form-control"
+                       placeholder="Celular" name="Celular" id="ICelular"
+                       value="@Model.Celular" readonly>
+            </div>
+            <p></p>
+
+            <div class="input-group">
+                <span class="input-group-addon">CNPJ</span>
+                <input type="text" class="form-control"
+                       placeholder="CNPJ" name="Cnpj" id="ICnpj"
+                       value="@Model.Cnpj" readonly>
+            </div>
+            <p></p>
+            <div class="input-group">
+                <span class="input-group-addon">Estado</span>
+                <input type="text" class="form-control"
+                       placeholder="Estado" name="Estado" id="IEstado"
+                       value="@Model.Estado" readonly>
+            </div>
+            <p></p>
+            <div class="input-group">
+                <span class="input-group-addon">Cidade</span>
+                <input type="text" class="form-control"
+                       placeholder="Cidade" name="Cidade" id="ICidade"
+                       value="@Model.Cidade" readonly>
+            </div>
+            <p></p>
+            <div class="input-group">
+                <span class="input-group-addon">Bairro</span>
+                <input type="text" class="form-control"
+                       placeholder="Bairro" name="Bairro" id="IBairro"
+                       value="@Model.Bairro" readonly>
+            </div>
+            <p></p>
+            <div class="input-group">
+                <span class="input-group-addon">Rua</span>
+                <input type="text" class="form-control"
+                       placeholder="Rua" name="Rua" id="IRua"
+                       value="@Model.Rua" readonly>
+            </div>
+            <p></p>
+            <div class="input-group">
+                <span class="input-group-addon">Numero</span>
+                <input type="text" class="form-control"
+                       placeholder="Numero" name="Numero" id="INumero"
+                       value="@Model.Numero" readonly>
+            </div>
+            <p></p>
+            <div class="row">
+                <div class="col-md-4 col-md-offset-5">
+                    <div class="btn-group btn-group-sm">
+                        @Html.ActionLink("Editar", "Edit", new { id =
+                        Model.Id }, new { @class = "btn btn-default btn-sm" })
+                        <a href="@Url.Action("Index", "Fornecedor")"
+                           class="btn btn-default btn-sm">Voltar</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

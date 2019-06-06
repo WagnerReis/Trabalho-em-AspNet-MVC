@@ -1,0 +1,68 @@
+﻿@model List<Marcenaria.Models.Fornecedor>
+
+@{
+    ViewBag.Title = "Fornecedor";
+}
+
+<div class="panel panel-primary">
+    <div class="panel-heading">Fornecedor</div>
+    <div class="panel-body">
+        <a href="@Url.Action("Create", "Fornecedor")" class="btn
+btn-default btn-sm">
+            <span class="glyphicon glyphicon-plus"></span> Novo
+        </a>
+    </div>
+
+    <table class="table">
+        <tr>
+            <th>
+                Código
+            </th>
+            <th>
+                Razao Social
+            </th>
+            <th>
+                Telefone
+            </th>
+            <th>
+                Celular
+            </th>
+            <th></th>
+        </tr>
+        @if (Model != null)
+        {
+            foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Id)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.RazaoSocial)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Telefone)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Celular)
+                    </td>
+                    <td>
+                        <div class="btn-group btn-group-sm">
+                            @Html.ActionLink("Editar", "Edit",
+                            new { id = item.Id },
+                            new { @class = "btn btn-default btn-sm" })
+
+                            @Html.ActionLink("Visualizar", "Details",
+                           new { id = item.Id },
+                           new { @class = "btn btn-default btn-sm" })
+
+                            @Html.ActionLink("Excluir", "Delete",
+                          new { id = item.Id },
+                           new { @class = "btn btn-default btn-sm" })
+                        </div>
+                    </td>
+                </tr>
+            }
+        }
+    </table>
+</div>

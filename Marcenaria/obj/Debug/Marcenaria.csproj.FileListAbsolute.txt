@@ -1,0 +1,249 @@
+C:\dev\Marcenaria\Marcenaria\bin\ApplicationInsights.config
+C:\dev\Marcenaria\Marcenaria\bin\roslyn\csc.exe
+C:\dev\Marcenaria\Marcenaria\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\dev\Marcenaria\Marcenaria\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\dev\Marcenaria\Marcenaria\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\dev\Marcenaria\Marcenaria\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\dev\Marcenaria\Marcenaria\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\dev\Marcenaria\Marcenaria\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\dev\Marcenaria\Marcenaria\bin\roslyn\System.Collections.Immutable.dll
+C:\dev\Marcenaria\Marcenaria\bin\roslyn\System.Reflection.Metadata.dll
+C:\dev\Marcenaria\Marcenaria\bin\roslyn\vbc.exe
+C:\dev\Marcenaria\Marcenaria\bin\roslyn\VBCSCompiler.exe
+C:\dev\Marcenaria\Marcenaria\bin\roslyn\VBCSCompiler.exe.config
+C:\dev\Marcenaria\Marcenaria\bin\Marcenaria.dll.config
+C:\dev\Marcenaria\Marcenaria\bin\Marcenaria.dll
+C:\dev\Marcenaria\Marcenaria\bin\Marcenaria.pdb
+C:\dev\Marcenaria\Marcenaria\bin\Antlr3.Runtime.dll
+C:\dev\Marcenaria\Marcenaria\bin\EntityFramework.dll
+C:\dev\Marcenaria\Marcenaria\bin\EntityFramework.SqlServer.dll
+C:\dev\Marcenaria\Marcenaria\bin\Microsoft.AI.Agent.Intercept.dll
+C:\dev\Marcenaria\Marcenaria\bin\Microsoft.AI.DependencyCollector.dll
+C:\dev\Marcenaria\Marcenaria\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\dev\Marcenaria\Marcenaria\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\dev\Marcenaria\Marcenaria\bin\Microsoft.AI.Web.dll
+C:\dev\Marcenaria\Marcenaria\bin\Microsoft.AI.WindowsServer.dll
+C:\dev\Marcenaria\Marcenaria\bin\Microsoft.ApplicationInsights.dll
+C:\dev\Marcenaria\Marcenaria\bin\Microsoft.AspNet.Identity.Core.dll
+C:\dev\Marcenaria\Marcenaria\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\dev\Marcenaria\Marcenaria\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\dev\Marcenaria\Marcenaria\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\dev\Marcenaria\Marcenaria\bin\Microsoft.Owin.dll
+C:\dev\Marcenaria\Marcenaria\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\dev\Marcenaria\Marcenaria\bin\Microsoft.Owin.Security.Cookies.dll
+C:\dev\Marcenaria\Marcenaria\bin\Microsoft.Owin.Security.dll
+C:\dev\Marcenaria\Marcenaria\bin\Microsoft.Owin.Security.Facebook.dll
+C:\dev\Marcenaria\Marcenaria\bin\Microsoft.Owin.Security.Google.dll
+C:\dev\Marcenaria\Marcenaria\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\dev\Marcenaria\Marcenaria\bin\Microsoft.Owin.Security.OAuth.dll
+C:\dev\Marcenaria\Marcenaria\bin\Microsoft.Owin.Security.Twitter.dll
+C:\dev\Marcenaria\Marcenaria\bin\Microsoft.Web.Infrastructure.dll
+C:\dev\Marcenaria\Marcenaria\bin\Newtonsoft.Json.dll
+C:\dev\Marcenaria\Marcenaria\bin\Owin.dll
+C:\dev\Marcenaria\Marcenaria\bin\System.Web.Helpers.dll
+C:\dev\Marcenaria\Marcenaria\bin\System.Web.Mvc.dll
+C:\dev\Marcenaria\Marcenaria\bin\System.Web.Optimization.dll
+C:\dev\Marcenaria\Marcenaria\bin\System.Web.Razor.dll
+C:\dev\Marcenaria\Marcenaria\bin\System.Web.WebPages.Deployment.dll
+C:\dev\Marcenaria\Marcenaria\bin\System.Web.WebPages.dll
+C:\dev\Marcenaria\Marcenaria\bin\System.Web.WebPages.Razor.dll
+C:\dev\Marcenaria\Marcenaria\bin\WebGrease.dll
+C:\dev\Marcenaria\Marcenaria\bin\Microsoft.AI.DependencyCollector.xml
+C:\dev\Marcenaria\Marcenaria\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\dev\Marcenaria\Marcenaria\bin\Microsoft.AI.Web.xml
+C:\dev\Marcenaria\Marcenaria\bin\Microsoft.AI.WindowsServer.xml
+C:\dev\Marcenaria\Marcenaria\bin\Microsoft.ApplicationInsights.xml
+C:\dev\Marcenaria\Marcenaria\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\dev\Marcenaria\Marcenaria\bin\System.Web.Helpers.xml
+C:\dev\Marcenaria\Marcenaria\bin\System.Web.Mvc.xml
+C:\dev\Marcenaria\Marcenaria\bin\System.Web.Optimization.xml
+C:\dev\Marcenaria\Marcenaria\bin\System.Web.Razor.xml
+C:\dev\Marcenaria\Marcenaria\bin\System.Web.WebPages.xml
+C:\dev\Marcenaria\Marcenaria\bin\System.Web.WebPages.Deployment.xml
+C:\dev\Marcenaria\Marcenaria\bin\System.Web.WebPages.Razor.xml
+C:\dev\Marcenaria\Marcenaria\bin\Antlr3.Runtime.pdb
+C:\dev\Marcenaria\Marcenaria\bin\Newtonsoft.Json.xml
+C:\dev\Marcenaria\Marcenaria\bin\EntityFramework.xml
+C:\dev\Marcenaria\Marcenaria\bin\EntityFramework.SqlServer.xml
+C:\dev\Marcenaria\Marcenaria\bin\Microsoft.AspNet.Identity.Core.xml
+C:\dev\Marcenaria\Marcenaria\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\dev\Marcenaria\Marcenaria\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\dev\Marcenaria\Marcenaria\bin\Microsoft.Owin.xml
+C:\dev\Marcenaria\Marcenaria\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\dev\Marcenaria\Marcenaria\bin\Microsoft.Owin.Security.xml
+C:\dev\Marcenaria\Marcenaria\bin\Microsoft.Owin.Security.Facebook.xml
+C:\dev\Marcenaria\Marcenaria\bin\Microsoft.Owin.Security.Cookies.xml
+C:\dev\Marcenaria\Marcenaria\bin\Microsoft.Owin.Security.OAuth.xml
+C:\dev\Marcenaria\Marcenaria\bin\Microsoft.Owin.Security.Google.xml
+C:\dev\Marcenaria\Marcenaria\bin\Microsoft.Owin.Security.Twitter.xml
+C:\dev\Marcenaria\Marcenaria\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\dev\Marcenaria\Marcenaria\obj\Debug\Marcenaria.dll
+C:\dev\Marcenaria\Marcenaria\obj\Debug\Marcenaria.pdb
+C:\aaa\Marcenaria\Marcenaria\bin\ApplicationInsights.config
+C:\aaa\Marcenaria\Marcenaria\bin\roslyn\csc.exe
+C:\aaa\Marcenaria\Marcenaria\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\aaa\Marcenaria\Marcenaria\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\aaa\Marcenaria\Marcenaria\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\aaa\Marcenaria\Marcenaria\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\aaa\Marcenaria\Marcenaria\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\aaa\Marcenaria\Marcenaria\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\aaa\Marcenaria\Marcenaria\bin\roslyn\System.Collections.Immutable.dll
+C:\aaa\Marcenaria\Marcenaria\bin\roslyn\System.Reflection.Metadata.dll
+C:\aaa\Marcenaria\Marcenaria\bin\roslyn\vbc.exe
+C:\aaa\Marcenaria\Marcenaria\bin\roslyn\VBCSCompiler.exe
+C:\aaa\Marcenaria\Marcenaria\bin\roslyn\VBCSCompiler.exe.config
+C:\aaa\Marcenaria\Marcenaria\bin\Marcenaria.dll.config
+C:\aaa\Marcenaria\Marcenaria\bin\Marcenaria.dll
+C:\aaa\Marcenaria\Marcenaria\bin\Marcenaria.pdb
+C:\aaa\Marcenaria\Marcenaria\bin\Antlr3.Runtime.dll
+C:\aaa\Marcenaria\Marcenaria\bin\EntityFramework.dll
+C:\aaa\Marcenaria\Marcenaria\bin\EntityFramework.SqlServer.dll
+C:\aaa\Marcenaria\Marcenaria\bin\Microsoft.AI.Agent.Intercept.dll
+C:\aaa\Marcenaria\Marcenaria\bin\Microsoft.AI.DependencyCollector.dll
+C:\aaa\Marcenaria\Marcenaria\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\aaa\Marcenaria\Marcenaria\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\aaa\Marcenaria\Marcenaria\bin\Microsoft.AI.Web.dll
+C:\aaa\Marcenaria\Marcenaria\bin\Microsoft.AI.WindowsServer.dll
+C:\aaa\Marcenaria\Marcenaria\bin\Microsoft.ApplicationInsights.dll
+C:\aaa\Marcenaria\Marcenaria\bin\Microsoft.AspNet.Identity.Core.dll
+C:\aaa\Marcenaria\Marcenaria\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\aaa\Marcenaria\Marcenaria\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\aaa\Marcenaria\Marcenaria\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\aaa\Marcenaria\Marcenaria\bin\Microsoft.Owin.dll
+C:\aaa\Marcenaria\Marcenaria\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\aaa\Marcenaria\Marcenaria\bin\Microsoft.Owin.Security.Cookies.dll
+C:\aaa\Marcenaria\Marcenaria\bin\Microsoft.Owin.Security.dll
+C:\aaa\Marcenaria\Marcenaria\bin\Microsoft.Owin.Security.Facebook.dll
+C:\aaa\Marcenaria\Marcenaria\bin\Microsoft.Owin.Security.Google.dll
+C:\aaa\Marcenaria\Marcenaria\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\aaa\Marcenaria\Marcenaria\bin\Microsoft.Owin.Security.OAuth.dll
+C:\aaa\Marcenaria\Marcenaria\bin\Microsoft.Owin.Security.Twitter.dll
+C:\aaa\Marcenaria\Marcenaria\bin\Microsoft.Web.Infrastructure.dll
+C:\aaa\Marcenaria\Marcenaria\bin\Newtonsoft.Json.dll
+C:\aaa\Marcenaria\Marcenaria\bin\Owin.dll
+C:\aaa\Marcenaria\Marcenaria\bin\System.Web.Helpers.dll
+C:\aaa\Marcenaria\Marcenaria\bin\System.Web.Mvc.dll
+C:\aaa\Marcenaria\Marcenaria\bin\System.Web.Optimization.dll
+C:\aaa\Marcenaria\Marcenaria\bin\System.Web.Razor.dll
+C:\aaa\Marcenaria\Marcenaria\bin\System.Web.WebPages.Deployment.dll
+C:\aaa\Marcenaria\Marcenaria\bin\System.Web.WebPages.dll
+C:\aaa\Marcenaria\Marcenaria\bin\System.Web.WebPages.Razor.dll
+C:\aaa\Marcenaria\Marcenaria\bin\WebGrease.dll
+C:\aaa\Marcenaria\Marcenaria\bin\Microsoft.AI.DependencyCollector.xml
+C:\aaa\Marcenaria\Marcenaria\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\aaa\Marcenaria\Marcenaria\bin\Microsoft.AI.Web.xml
+C:\aaa\Marcenaria\Marcenaria\bin\Microsoft.AI.WindowsServer.xml
+C:\aaa\Marcenaria\Marcenaria\bin\Microsoft.ApplicationInsights.xml
+C:\aaa\Marcenaria\Marcenaria\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\aaa\Marcenaria\Marcenaria\bin\System.Web.Helpers.xml
+C:\aaa\Marcenaria\Marcenaria\bin\System.Web.Mvc.xml
+C:\aaa\Marcenaria\Marcenaria\bin\System.Web.Optimization.xml
+C:\aaa\Marcenaria\Marcenaria\bin\System.Web.Razor.xml
+C:\aaa\Marcenaria\Marcenaria\bin\System.Web.WebPages.xml
+C:\aaa\Marcenaria\Marcenaria\bin\System.Web.WebPages.Deployment.xml
+C:\aaa\Marcenaria\Marcenaria\bin\System.Web.WebPages.Razor.xml
+C:\aaa\Marcenaria\Marcenaria\bin\Antlr3.Runtime.pdb
+C:\aaa\Marcenaria\Marcenaria\bin\Newtonsoft.Json.xml
+C:\aaa\Marcenaria\Marcenaria\bin\EntityFramework.xml
+C:\aaa\Marcenaria\Marcenaria\bin\EntityFramework.SqlServer.xml
+C:\aaa\Marcenaria\Marcenaria\bin\Microsoft.AspNet.Identity.Core.xml
+C:\aaa\Marcenaria\Marcenaria\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\aaa\Marcenaria\Marcenaria\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\aaa\Marcenaria\Marcenaria\bin\Microsoft.Owin.xml
+C:\aaa\Marcenaria\Marcenaria\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\aaa\Marcenaria\Marcenaria\bin\Microsoft.Owin.Security.xml
+C:\aaa\Marcenaria\Marcenaria\bin\Microsoft.Owin.Security.Facebook.xml
+C:\aaa\Marcenaria\Marcenaria\bin\Microsoft.Owin.Security.Cookies.xml
+C:\aaa\Marcenaria\Marcenaria\bin\Microsoft.Owin.Security.OAuth.xml
+C:\aaa\Marcenaria\Marcenaria\bin\Microsoft.Owin.Security.Google.xml
+C:\aaa\Marcenaria\Marcenaria\bin\Microsoft.Owin.Security.Twitter.xml
+C:\aaa\Marcenaria\Marcenaria\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\aaa\Marcenaria\Marcenaria\obj\Debug\Marcenaria.csprojAssemblyReference.cache
+C:\aaa\Marcenaria\Marcenaria\obj\Debug\Marcenaria.csproj.CoreCompileInputs.cache
+C:\aaa\Marcenaria\Marcenaria\obj\Debug\Marcenaria.csproj.CopyComplete
+C:\aaa\Marcenaria\Marcenaria\obj\Debug\Marcenaria.dll
+C:\aaa\Marcenaria\Marcenaria\obj\Debug\Marcenaria.pdb
+C:\Users\User\Desktop\VT Poo3\Marcenaria\Marcenaria\bin\ApplicationInsights.config
+C:\Users\User\Desktop\VT Poo3\Marcenaria\Marcenaria\bin\roslyn\csc.exe
+C:\Users\User\Desktop\VT Poo3\Marcenaria\Marcenaria\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\User\Desktop\VT Poo3\Marcenaria\Marcenaria\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\User\Desktop\VT Poo3\Marcenaria\Marcenaria\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\User\Desktop\VT Poo3\Marcenaria\Marcenaria\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\User\Desktop\VT Poo3\Marcenaria\Marcenaria\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\User\Desktop\VT Poo3\Marcenaria\Marcenaria\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\User\Desktop\VT Poo3\Marcenaria\Marcenaria\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\User\Desktop\VT Poo3\Marcenaria\Marcenaria\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\User\Desktop\VT Poo3\Marcenaria\Marcenaria\bin\roslyn\vbc.exe
+C:\Users\User\Desktop\VT Poo3\Marcenaria\Marcenaria\bin\roslyn\VBCSCompiler.exe
+C:\Users\User\Desktop\VT Poo3\Marcenaria\Marcenaria\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\User\Desktop\VT Poo3\Marcenaria\Marcenaria\bin\Marcenaria.dll.config
+C:\Users\User\Desktop\VT Poo3\Marcenaria\Marcenaria\bin\Marcenaria.dll
+C:\Users\User\Desktop\VT Poo3\Marcenaria\Marcenaria\bin\Marcenaria.pdb
+C:\Users\User\Desktop\VT Poo3\Marcenaria\Marcenaria\bin\Antlr3.Runtime.dll
+C:\Users\User\Desktop\VT Poo3\Marcenaria\Marcenaria\bin\EntityFramework.dll
+C:\Users\User\Desktop\VT Poo3\Marcenaria\Marcenaria\bin\EntityFramework.SqlServer.dll
+C:\Users\User\Desktop\VT Poo3\Marcenaria\Marcenaria\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\User\Desktop\VT Poo3\Marcenaria\Marcenaria\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\User\Desktop\VT Poo3\Marcenaria\Marcenaria\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\User\Desktop\VT Poo3\Marcenaria\Marcenaria\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\User\Desktop\VT Poo3\Marcenaria\Marcenaria\bin\Microsoft.AI.Web.dll
+C:\Users\User\Desktop\VT Poo3\Marcenaria\Marcenaria\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\User\Desktop\VT Poo3\Marcenaria\Marcenaria\bin\Microsoft.ApplicationInsights.dll
+C:\Users\User\Desktop\VT Poo3\Marcenaria\Marcenaria\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\User\Desktop\VT Poo3\Marcenaria\Marcenaria\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\User\Desktop\VT Poo3\Marcenaria\Marcenaria\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\User\Desktop\VT Poo3\Marcenaria\Marcenaria\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\User\Desktop\VT Poo3\Marcenaria\Marcenaria\bin\Microsoft.Owin.dll
+C:\Users\User\Desktop\VT Poo3\Marcenaria\Marcenaria\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\User\Desktop\VT Poo3\Marcenaria\Marcenaria\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\User\Desktop\VT Poo3\Marcenaria\Marcenaria\bin\Microsoft.Owin.Security.dll
+C:\Users\User\Desktop\VT Poo3\Marcenaria\Marcenaria\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\User\Desktop\VT Poo3\Marcenaria\Marcenaria\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\User\Desktop\VT Poo3\Marcenaria\Marcenaria\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\User\Desktop\VT Poo3\Marcenaria\Marcenaria\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\User\Desktop\VT Poo3\Marcenaria\Marcenaria\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\User\Desktop\VT Poo3\Marcenaria\Marcenaria\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\User\Desktop\VT Poo3\Marcenaria\Marcenaria\bin\Newtonsoft.Json.dll
+C:\Users\User\Desktop\VT Poo3\Marcenaria\Marcenaria\bin\Owin.dll
+C:\Users\User\Desktop\VT Poo3\Marcenaria\Marcenaria\bin\System.Web.Helpers.dll
+C:\Users\User\Desktop\VT Poo3\Marcenaria\Marcenaria\bin\System.Web.Mvc.dll
+C:\Users\User\Desktop\VT Poo3\Marcenaria\Marcenaria\bin\System.Web.Optimization.dll
+C:\Users\User\Desktop\VT Poo3\Marcenaria\Marcenaria\bin\System.Web.Razor.dll
+C:\Users\User\Desktop\VT Poo3\Marcenaria\Marcenaria\bin\System.Web.WebPages.Deployment.dll
+C:\Users\User\Desktop\VT Poo3\Marcenaria\Marcenaria\bin\System.Web.WebPages.dll
+C:\Users\User\Desktop\VT Poo3\Marcenaria\Marcenaria\bin\System.Web.WebPages.Razor.dll
+C:\Users\User\Desktop\VT Poo3\Marcenaria\Marcenaria\bin\WebGrease.dll
+C:\Users\User\Desktop\VT Poo3\Marcenaria\Marcenaria\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\User\Desktop\VT Poo3\Marcenaria\Marcenaria\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\User\Desktop\VT Poo3\Marcenaria\Marcenaria\bin\Microsoft.AI.Web.xml
+C:\Users\User\Desktop\VT Poo3\Marcenaria\Marcenaria\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\User\Desktop\VT Poo3\Marcenaria\Marcenaria\bin\Microsoft.ApplicationInsights.xml
+C:\Users\User\Desktop\VT Poo3\Marcenaria\Marcenaria\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\User\Desktop\VT Poo3\Marcenaria\Marcenaria\bin\System.Web.Helpers.xml
+C:\Users\User\Desktop\VT Poo3\Marcenaria\Marcenaria\bin\System.Web.Mvc.xml
+C:\Users\User\Desktop\VT Poo3\Marcenaria\Marcenaria\bin\System.Web.Optimization.xml
+C:\Users\User\Desktop\VT Poo3\Marcenaria\Marcenaria\bin\System.Web.Razor.xml
+C:\Users\User\Desktop\VT Poo3\Marcenaria\Marcenaria\bin\System.Web.WebPages.xml
+C:\Users\User\Desktop\VT Poo3\Marcenaria\Marcenaria\bin\System.Web.WebPages.Deployment.xml
+C:\Users\User\Desktop\VT Poo3\Marcenaria\Marcenaria\bin\System.Web.WebPages.Razor.xml
+C:\Users\User\Desktop\VT Poo3\Marcenaria\Marcenaria\bin\Antlr3.Runtime.pdb
+C:\Users\User\Desktop\VT Poo3\Marcenaria\Marcenaria\bin\Newtonsoft.Json.xml
+C:\Users\User\Desktop\VT Poo3\Marcenaria\Marcenaria\bin\EntityFramework.xml
+C:\Users\User\Desktop\VT Poo3\Marcenaria\Marcenaria\bin\EntityFramework.SqlServer.xml
+C:\Users\User\Desktop\VT Poo3\Marcenaria\Marcenaria\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\User\Desktop\VT Poo3\Marcenaria\Marcenaria\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\User\Desktop\VT Poo3\Marcenaria\Marcenaria\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\User\Desktop\VT Poo3\Marcenaria\Marcenaria\bin\Microsoft.Owin.xml
+C:\Users\User\Desktop\VT Poo3\Marcenaria\Marcenaria\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\User\Desktop\VT Poo3\Marcenaria\Marcenaria\bin\Microsoft.Owin.Security.xml
+C:\Users\User\Desktop\VT Poo3\Marcenaria\Marcenaria\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\User\Desktop\VT Poo3\Marcenaria\Marcenaria\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\User\Desktop\VT Poo3\Marcenaria\Marcenaria\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\User\Desktop\VT Poo3\Marcenaria\Marcenaria\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\User\Desktop\VT Poo3\Marcenaria\Marcenaria\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\User\Desktop\VT Poo3\Marcenaria\Marcenaria\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\User\Desktop\VT Poo3\Marcenaria\Marcenaria\obj\Debug\Marcenaria.csprojAssemblyReference.cache
+C:\Users\User\Desktop\VT Poo3\Marcenaria\Marcenaria\obj\Debug\Marcenaria.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\VT Poo3\Marcenaria\Marcenaria\obj\Debug\Marcenaria.csproj.CopyComplete
+C:\Users\User\Desktop\VT Poo3\Marcenaria\Marcenaria\obj\Debug\Marcenaria.dll
+C:\Users\User\Desktop\VT Poo3\Marcenaria\Marcenaria\obj\Debug\Marcenaria.pdb
